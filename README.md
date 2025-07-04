@@ -74,16 +74,6 @@ Each `Employee` entity extends `AuditableEntity` and is tracked by `AuditEntityL
 
 ---
 
-## Getting Started
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com.mcas.ms/NashTech-Labs/spring-data-jpa-entity-lifecycle
-   cd spring-data-jpa-entity-lifecycle
-   ```
-2. **Run the application**
----
-
 ## Entity Auditing
 
 Each `Employee` entity extends `AuditableEntity` and is tracked by `AuditEntityListener` to log lifecycle events such as creation, modification, and deletion timestamps.
