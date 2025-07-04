@@ -74,24 +74,6 @@ Each `Employee` entity extends `AuditableEntity` and is tracked by `AuditEntityL
 
 ---
 
-## Entity Auditing
-
-Each `Employee` entity extends `AuditableEntity` and is tracked by `AuditEntityListener` to log lifecycle events such as creation, modification, and deletion timestamps.
-
----
-
-## Tech Stack
-
-- Java 17+
-- Spring Boot
-- Spring Data JPA
-- H2 (in-memory DB for development)
-- Lombok
-- OpenAPI/Swagger (springdoc-openapi)
-- JUnit & Mockito
-
----
-
 ## Getting Started
 
 1. **Clone the repository**
@@ -107,6 +89,8 @@ Each `Employee` entity extends `AuditableEntity` and is tracked by `AuditEntityL
 
    - Swagger UI: http://localhost:8080/swagger-ui.html
    - H2 Console: http://localhost:8080/h2-console
+
+---
 
 ## Running Tests
 To execute unit tests:
